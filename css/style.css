@@ -32,8 +32,40 @@ header {
   padding: 0 30px;
 }
 
-header .menu i {
+header .menu-bar i {
   color: white;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+header .menu-classic {
+  display: none;
+}
+
+header .menu-classic ul li{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+
+
+
+
+/************************************************
+    RESPONSIVE
+ ************************************************/
+
+
+/* header */
+
+@media (min-width: 768px) {
+  header .menu-bar {
+    display: none;
+  }
+
+  header .menu-classic {
+    display: inline-block;
+  }
 }
