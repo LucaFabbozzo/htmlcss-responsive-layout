@@ -167,6 +167,7 @@ section.testimonials .box {
 /* benefits */
 section.benefits h3 {
   text-align: center;
+  padding-bottom: 40px;
 }
 
 
@@ -177,7 +178,7 @@ section.benefits {
 
 .benefits .d-flex {
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
@@ -305,7 +306,7 @@ footer .box .bottom {
   }
 
   .strategic .box {
-    width: 350px;
+    width: 30%;
   }
 }
 
@@ -330,13 +331,18 @@ footer .box .bottom {
 
 /* about us */
 
-
-
-/* @media (min-width: 768px ) {
+@media (min-width: 768px ) {
   section.about-us .box {
-    width: 370px;
+    width: 260px;
   }
-} */
+} 
+
+
+@media (min-width: 1120px ) {
+  section.about-us .box {
+    width: 400px;
+  }
+} 
 
 
 /* get-started */
