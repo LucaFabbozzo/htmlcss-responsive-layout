@@ -219,6 +219,26 @@ section.get-started {
 }
 
 
+/* footer */
+footer {
+  background-color: #333233;
+}
+
+footer .box {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer .box .top {
+  padding: 40px 0
+}
+
+
+footer .box .bottom {
+  padding-bottom: 40px;
+}
+
 
 
 /************************************************
@@ -328,5 +348,16 @@ section.get-started {
  @media (min-width: 768px ) {
   section.get-started .box {
     width: 585px;
+  }
+} 
+
+
+
+/* footer */
+
+
+@media (min-width: 768px ) {
+  footer .box {
+    width: 500px;
   }
 } 
