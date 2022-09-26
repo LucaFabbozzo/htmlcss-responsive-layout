@@ -31,7 +31,7 @@ p {
 }
 
 .container {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -98,16 +98,16 @@ section.get .items i {
 
 section.get {
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   padding-bottom: 80px;
 }
 
 section.get .box {
   background-color: #B5DDFE;  
   border-radius: 20px;
-  width: 310px;
+  width: 100%;
   padding: 20px;
-  margin: 10px;
+  margin-bottom: 20px;
 }
 
 section.get .app {
@@ -271,23 +271,22 @@ footer .box .bottom {
 
 @media (min-width: 768px) {
   section.get .app {
-    width: 485px;
-
+    width: 60%;
   }
 
   section.get .items {
-    width: 230px;
+    width: 30%;
   }
 }
 
 @media (min-width: 1350px) {
   section.get .app {
-    width: 700px;
+    width: 60%;
 
   }
 
   section.get .items {
-    width: 300px;
+    width: 30%;
   }
 }
 
@@ -318,7 +317,7 @@ footer .box .bottom {
 
 @media (min-width: 1350px ) {
   section.testimonials .box {
-    width: 1135px;
+    width: 100%;
   }
 }
 
