@@ -124,8 +124,27 @@ section.get .items {
 section.strategic {
   background-color: #9792E4;
   flex-wrap: wrap;
-  padding: 50px 30px 70px 30px
+  padding: 40px 0;
 }
+
+.strategic p {
+  padding-bottom: 32px;
+}
+
+.strategic .box.left img {
+  padding: 60px 20px;
+}
+
+.strategic .box .white {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+
+
+
 
 
 
