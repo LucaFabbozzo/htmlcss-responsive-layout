@@ -164,10 +164,27 @@ section.testimonials .box {
 }
 
 
+/* benefits */
 
 
+section.benefits {
+  background-color: #9792E4;
+  padding: 70px 0;
+}
 
 
+.benefits .box {
+  width: 305px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.benefits .d-flex {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 
@@ -255,5 +272,14 @@ section.testimonials .box {
 @media (min-width: 1350px ) {
   section.testimonials .box {
     width: 1135px;
+  }
+}
+
+
+/* benefits */
+
+@media (min-width: 768px ) {
+  section.benefits .box {
+    margin: 20px;
   }
 }
