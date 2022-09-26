@@ -16,6 +16,14 @@ img {
   width: 100%;
 }
 
+h4 {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 25px;
+}
+
 /* utilities */
 
 .d-flex {
@@ -23,7 +31,7 @@ img {
 }
 
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -39,19 +47,15 @@ header img {
   width: 75px;
 }
 
-header ul li .btn{
-  color: black;
-}
-
 header {
-  background-color: #0084FD;;
+  background-color: #0084FD;
 }
 
 header .container {
   justify-content: space-between;
   align-items: center;  
   height: 75px;
-  padding: 0 30px;
+  
 }
 
 header .menu-bar i {
@@ -72,6 +76,40 @@ header .menu-classic ul li{
 }
 
 
+/* main */
+
+/* section get */
+
+section.get {
+  flex-wrap: wrap;
+  padding: 50px 30px 70px 30px
+}
+
+section.get .box {
+  background-color: #B5DDFE;  
+  border-radius: 20px;
+  width: 310px;
+}
+
+
+/* section strategic */
+
+section.strategic {
+  background-color: #9792E4;
+  flex-wrap: wrap;
+  padding: 50px 30px 70px 30px
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -84,7 +122,7 @@ header .menu-classic ul li{
 
 @media (min-width: 915px) {
 
-  header .container {
+ .container {
     width: 75%;
   }
 
@@ -94,5 +132,33 @@ header .menu-classic ul li{
 
   header .menu-classic {
     display: inline-block;
+  }
+}
+
+/* main */
+
+
+/* section get */
+
+@media (min-width: 768px) {
+  
+  main section .box.app {
+    width: 470px;
+  }
+
+  main section .box.items {
+    width: 210px;
+  }
+}
+
+
+@media (min-width: 915px) {
+  
+  main section .box.app {
+    width: 700px;
+  }
+
+  main section .box.items {
+    width: 300px;
   }
 }
