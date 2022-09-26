@@ -17,7 +17,7 @@ img {
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 p {
@@ -37,8 +37,16 @@ p {
 
 .btn {
   background-color: white;
-  padding: 10px 10px;
   border-radius: 20px;
+  padding: 13px 20px;
+  width: 205px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn a {
+  color: #000000;
+  text-decoration: none;
 }
 
 /* header */
@@ -77,6 +85,7 @@ header .menu-classic ul li{
 }
 
 
+
 /* main */
 
 /* section get */
@@ -94,6 +103,25 @@ section.get .items i {
 
 .get p {
   padding-bottom: 30px;
+}
+
+.get .app img {
+ padding-top: 30px;
+}
+
+.get .box .btn {
+  background-color: #0084FD;
+  margin-left: 10px;
+}
+
+.get .box .btn a {
+  color: #FFFFFF;
+}
+
+
+.get .box .btn i {
+  color: #FFFFFF;
+  margin-right: 5px;
 }
 
 section.get {
@@ -141,6 +169,7 @@ section.strategic {
   text-align: center;
   padding: 25px;
 }
+
 
 
 /* testimonials */
