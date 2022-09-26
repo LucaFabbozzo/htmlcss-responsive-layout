@@ -207,6 +207,16 @@ section.about-us .box {
   
 }
 
+/* get-started */
+
+section.get-started {
+  background-color: #9792E4;
+}
+
+.get-started .box {
+  text-align: center;
+  margin: 0 auto;
+}
 
 
 
@@ -310,3 +320,13 @@ section.about-us .box {
     width: 370px;
   }
 } */
+
+
+/* get-started */
+
+
+ @media (min-width: 768px ) {
+  section.get-started .box {
+    width: 585px;
+  }
+} 
