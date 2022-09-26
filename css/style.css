@@ -27,10 +27,20 @@ img {
   margin: 0 auto;
 }
 
+.btn {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
 /* header */
 
 header img {
   width: 75px;
+}
+
+header ul li .btn{
+  color: black;
 }
 
 header {
