@@ -31,7 +31,7 @@ p {
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -49,13 +49,14 @@ header img {
 
 header {
   background-color: #0084FD;
+  margin-bottom: 45px;
 }
 
 header .container {
   justify-content: space-between;
   align-items: center;  
   height: 75px;
-  
+  padding: 0 10px;
 }
 
 header .menu-bar i {
@@ -80,15 +81,41 @@ header .menu-classic ul li{
 
 /* section get */
 
+section.get .items i {
+  font-size: 4.5rem;
+  color: #0283FE;
+  padding-bottom: 20px;
+}
+
+.get h4 {
+  color: #0283FE;
+  padding-bottom: 30px;
+}
+
+.get p {
+  padding-bottom: 30px;
+}
+
 section.get {
   flex-wrap: wrap;
-  padding: 50px 30px 70px 30px
+  justify-content: center;
+  padding-bottom: 80px;
 }
 
 section.get .box {
   background-color: #B5DDFE;  
   border-radius: 20px;
   width: 310px;
+  padding: 20px;
+  margin: 10px;
+}
+
+section.get .app {
+  padding: 20px 20px 0 20px;
+}
+
+section.get .items {
+  text-align: center;
 }
 
 
@@ -140,25 +167,26 @@ section.strategic {
 
 /* section get */
 
+
 @media (min-width: 768px) {
-  
-  main section .box.app {
-    width: 470px;
+  section.get .app {
+    width: 485px;
+
   }
 
-  main section .box.items {
-    width: 210px;
+  section.get .items {
+    width: 230px;
   }
 }
 
-
-@media (min-width: 915px) {
-  
-  main section .box.app {
+@media (min-width: 1350px) {
+  section.get .app {
     width: 700px;
+
   }
 
-  main section .box.items {
+  section.get .items {
     width: 300px;
   }
 }
+
