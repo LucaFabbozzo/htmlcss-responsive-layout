@@ -165,7 +165,7 @@ section.strategic {
 /* main */
 
 
-/* section get */
+/* get */
 
 
 @media (min-width: 768px) {
@@ -190,3 +190,17 @@ section.strategic {
   }
 }
 
+
+/* strategic  */
+
+@media (min-width: 1350px) {
+
+  .strategic .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .strategic .box {
+    width: 350px;
+  }
+}
