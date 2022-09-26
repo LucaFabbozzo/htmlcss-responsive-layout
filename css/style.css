@@ -22,13 +22,25 @@ img {
   display: flex;
 }
 
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
 /* header */
 
+header img {
+  width: 75px;
+}
+
 header {
+  background-color: #0084FD;;
+}
+
+header .container {
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
   height: 75px;
-  background-color: #0084FD;
   padding: 0 30px;
 }
 
@@ -60,7 +72,12 @@ header .menu-classic ul li{
 
 /* header */
 
-@media (min-width: 768px) {
+@media (min-width: 915px) {
+
+  header .container {
+    width: 75%;
+  }
+
   header .menu-bar {
     display: none;
   }
