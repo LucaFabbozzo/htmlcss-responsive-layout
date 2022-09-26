@@ -325,6 +325,12 @@ footer .box .bottom {
 
  @media (min-width: 768px ) {
   section.benefits .box {
+    width: calc(100% / 2 - 40px);
+  }
+} 
+
+@media (min-width: 1120px ) {
+  section.benefits .box {
     width: calc(100% / 3 - 40px);
   }
 } 
