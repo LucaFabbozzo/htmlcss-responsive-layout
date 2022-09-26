@@ -187,8 +187,25 @@ section.benefits {
 }
 
 
+/* about us */
+
+section.about-us img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+section.about-us .d-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 
+section.about-us .box {
+  width: 310px;
+  
+}
 
 
 
@@ -283,3 +300,13 @@ section.benefits {
     margin: 20px;
   }
 }
+
+/* about us */
+
+
+
+/* @media (min-width: 768px ) {
+  section.about-us .box {
+    width: 370px;
+  }
+} */
